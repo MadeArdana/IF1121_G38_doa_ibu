@@ -1,0 +1,2 @@
+ayah(ghani).
+ibu(callista).
