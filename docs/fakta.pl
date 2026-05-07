@@ -3,11 +3,7 @@ warna_biasa(merah).
 warna_biasa(kuning).
 warna_biasa(hijau).
 warna_biasa(biru).
-
-warna_pilihan(merah).
-warna_pilihan(kuning).
-warna_pilihan(hijau).
-warna_pilihan(biru).
+warna_spesial(hitam).
 
 jenis_angka(0). 
 jenis_angka(1).
@@ -24,6 +20,9 @@ jenis_aksi(skip).
 jenis_aksi(reverse).
 jenis_aksi(draw_two).
 
+jenis_wild(wild).
+jenis_wild(wild_draw_four).
+
 /* FAKTA DYNAMIC */
 :- dynamic urutan_pemain/1.
 :- dynamic giliran/1.
@@ -34,3 +33,4 @@ jenis_aksi(draw_two).
 :- dynamic permainan_aktif/0.
 :- dynamic deck/1.
 :- dynamic discard_pile/1.
+:- dynamic temp_kartu/1.
