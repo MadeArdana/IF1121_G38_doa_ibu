@@ -1,5 +1,3 @@
-:- include('fakta.pl'). 
-
 /*reset game*/
 reset_game :-
     retractall(urutan_pemain(_)),
